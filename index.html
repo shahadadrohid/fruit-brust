@@ -44,8 +44,8 @@
     </style>
 </head>
 
-<body class="bg-white pb-48">
-    <header class="py-2 lg:pt-12 px-2 lg:px-48">
+<body class="bg-white">
+    <header class="py-2 lg:pt-12 px-2 lg:px-60">
         <nav class="lg:bg-basic-color rounded-full lg:text-white text-black">
             <div class="flex justify-between lg:justify-evenly items-center mx-5">
 
@@ -60,8 +60,8 @@
 
                 <div class="">
                     <div class="flex items-center">
-                        <img class="w-8" src="images/logo.png" alt="">
-                        <h3 class="text-xl lg:text-4xl font- ml-2">Fruit Brust</h3>
+                        <img class="w-8 lg:w-16" src="images/logo.png" alt="">
+                        <h3 class="text-xl lg:text-4xl font-bold ml-2">Fruit Brust</h3>
                     </div>
                 </div>
 
@@ -160,6 +160,46 @@
             </div>
         </section>
     </header>
+
+    <!-- Main contents -->
+
+    <main class="mt-5 lg:mt-36">
+        <section class="flex flex-col lg:flex-row lg:justify-between text-center lg:text-left text-black mx-2 lg:mx-60">
+            <div class="max-w-2xl">
+                <h3 class="text-3xl lg:text-5xl font-extrabold">Deal of the day</h3>
+                <p class="mt-6 font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="grid grid-flow-col gap-2 lg:gap-5 text-center auto-cols-max justify-center mt-5 lg:mt-0">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="font-extrabold"  style="--value:15;"></span>
+                  </span>
+                  days
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="font-extrabold"  style="--value:10;"></span>
+                  </span>
+                  hours
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="font-extrabold" style="--value:24;"></span>
+                  </span>
+                  min
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span class="font-extrabold"  style="--value:10;"></span>
+                  </span>
+                  sec
+                </div>
+              </div> 
+        </section>
+    </main>
 </body>
 
 </html>

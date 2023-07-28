@@ -26,7 +26,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'basic-color': '#F85559'
+                        'basic-color': '#F85559',
+                        'start-color': '#121212',
+                        'end-color': '#12121200',
                     }
                 }
             }
@@ -92,6 +94,69 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Banner section -->
+
+        <section class="mt-16">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <img src="/images/banner1.png" class="w-full" />
+
+                    <div
+                        class="absolute bg-gradient-to-b from-start-color to-end-color w-full h-full  text-center text-white">
+                        <h2 class="text-7xl  font-extrabold mt-20">Exotic tastes at your <br>
+                            doorstep</h2>
+                        <p class="text-xl mt-6">We supply highly quality organic products</p>
+                        <button class="bg-basic-color px-8 py-5 rounded-lg mt-6 font-semibold">Shop Now</button>
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/images/banner2.png" class="w-full" />
+                    <div
+                        class="absolute bg-gradient-to-b from-start-color to-end-color w-full h-full  text-center text-white">
+                        <h2 class="text-7xl  font-extrabold mt-20">Exotic tastes at your <br>
+                            doorstep</h2>
+                        <p class="text-xl mt-6">We supply highly quality organic products</p>
+                        <button class="bg-basic-color px-8 py-5 rounded-lg mt-6 font-semibold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/images/banner3.png" class="w-full" />
+                    <div class="absolute bg-gradient-to-b from-start-color to-end-color w-full h-full  text-center text-white">
+                        <h2 class="text-7xl  font-extrabold mt-20">Exotic tastes at your <br>
+                            doorstep</h2>
+                        <p class="text-xl mt-6">We supply highly quality organic products</p>
+                        <button class="bg-basic-color px-8 py-5 rounded-lg mt-6 font-semibold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="/images/banner4.png" class="w-full" />
+                    <div class="absolute bg-gradient-to-b from-start-color to-end-color w-full h-full  text-center text-white">
+                        <h2 class="text-7xl  font-extrabold mt-20">Exotic tastes at your <br>
+                            doorstep</h2>
+                        <p class="text-xl mt-6">We supply highly quality organic products</p>
+                        <button class="bg-basic-color px-8 py-5 rounded-lg mt-6 font-semibold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 </body>
 

@@ -43,6 +43,13 @@
             margin: 0;
             padding: 0;
         }
+
+        @media screen and (max-width:576px) {
+            .teams-img {
+                height: 1400px;
+                transform: scaleX(8);
+            }
+        }
     </style>
 </head>
 
@@ -286,62 +293,64 @@
 
 
         <!-- Meet the team section -->
-        <section class="relative">
-            <img class="lg:block" src="images/banner1.png" alt="">
-            <div class="top-0 h-full w-full  bg-[#121212b3]">
-                <div class="text-center text-white ">
-                    <h2 class="text-2xl lg:text-5xl font-extrabold mt-5 lg:mt-24">Meet the team section</h2>
-                    <p class="text-sm lg:text-xl max-w-2xl mx-auto mt-4">Contrary to popular belief, is not simply
-                        random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.</p>
-                </div>
-                <div class="flex flex-col lg:flex-row lg:justify-evenly mt-12 text-center text-white">
-                    <div>
-                        <div class="flex justify-center">
-                            <img src="images/member1.png" alt="">
-                        </div>
-                        <h4 class="text-2xl mt-8">Awlad Hossain</h4>
-                        <p>Fruits Expert</p>
-                        <div class="text-basic-color mt-4">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </div>
+        <section class="">
+            <div class="relative lg:mt-36 overflow-hidden">
+                <img class="lg:block overflow-hidden teams-img" src="images/banner1.png" alt="">
+                <div class="absolute top-0 h-full w-full  bg-[#121212b3]">
+                    <div class="text-center text-white ">
+                        <h2 class="text-2xl lg:text-5xl font-extrabold mt-5 lg:mt-24">Meet the team section</h2>
+                        <p class="text-sm lg:text-xl max-w-2xl mx-auto mt-4">Contrary to popular belief, is not simply
+                            random text. It has roots in a piece of classical Latin
+                            literature from 45 BC, making it over 2000 years old.</p>
                     </div>
-                    <div class="mt-8 lg:mt-0">
-                        <div class="flex justify-center">
-                            <img src="images/member2.png" alt="">
+                    <div class="flex flex-col lg:flex-row lg:justify-evenly mt-12 text-center text-white">
+                        <div>
+                            <div class="flex justify-center">
+                                <img src="images/member1.png" alt="">
+                            </div>
+                            <h4 class="text-2xl mt-8">Awlad Hossain</h4>
+                            <p>Fruits Expert</p>
+                            <div class="text-basic-color mt-4">
+                                <i class="fa-brands fa-facebook mr-2"></i>
+                                <i class="fa-brands fa-twitter mr-2"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
                         </div>
-                        <h4 class="text-2xl mt-8">Safia Chowdhury</h4>
-                        <p>Fruits Expert</p>
-                        <div class="text-basic-color mt-4">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-linkedin"></i>
+                        <div class="mt-8 lg:mt-0">
+                            <div class="flex justify-center">
+                                <img src="images/member2.png" alt="">
+                            </div>
+                            <h4 class="text-2xl mt-8">Safia Chowdhury</h4>
+                            <p>Fruits Expert</p>
+                            <div class="text-basic-color mt-4">
+                                <i class="fa-brands fa-facebook mr-2"></i>
+                                <i class="fa-brands fa-twitter mr-2"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-8 lg:mt-0">
-                        <div class="flex justify-center">
-                            <img src="images/member3.png" alt="">
+                        <div class="mt-8 lg:mt-0">
+                            <div class="flex justify-center">
+                                <img src="images/member3.png" alt="">
+                            </div>
+                            <h4 class="text-2xl mt-8">Rokib Hossain</h4>
+                            <p>Fruits Expert</p>
+                            <div class="text-basic-color mt-4">
+                                <i class="fa-brands fa-facebook mr-2"></i>
+                                <i class="fa-brands fa-twitter mr-2"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
                         </div>
-                        <h4 class="text-2xl mt-8">Rokib Hossain</h4>
-                        <p>Fruits Expert</p>
-                        <div class="text-basic-color mt-4">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </div>
-                    </div>
-                    <div class="mt-8 lg:mt-0">
-                        <div class="flex justify-center">
-                            <img src="images/member4.png" alt="">
-                        </div>
-                        <h4 class="text-2xl mt-8">Chaity</h4>
-                        <p>Fruits Expert</p>
-                        <div class="text-basic-color mt-4">
-                            <i class="fa-brands fa-facebook mr-2"></i>
-                            <i class="fa-brands fa-twitter mr-2"></i>
-                            <i class="fa-brands fa-linkedin"></i>
+                        <div class="mt-8 lg:mt-0">
+                            <div class="flex justify-center">
+                                <img src="images/member4.png" alt="">
+                            </div>
+                            <h4 class="text-2xl mt-8">Chaity</h4>
+                            <p>Fruits Expert</p>
+                            <div class="text-basic-color mt-4">
+                                <i class="fa-brands fa-facebook mr-2"></i>
+                                <i class="fa-brands fa-twitter mr-2"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -349,7 +358,7 @@
         </section>
 
         <!-- Why choose us -->
-        <section class="relative">
+        <section class="lg:mt-36">
             <div class="text-center text-black ">
                 <h2 class="text-2xl lg:text-5xl font-extrabold mt-5 lg:mt-24">Why Choose Us</h2>
                 <p class="text-sm lg:text-xl max-w-2xl mx-auto mt-4">Contrary to popular belief, is not simply random
@@ -382,7 +391,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="flex flex-col lg:flex-row text-center lg:text-start lg:justify-between gap-4 px-8 mt-10 lg:mt-0">
+                        <div
+                            class="flex flex-col lg:flex-row text-center lg:text-start lg:justify-between gap-4 px-8 mt-10 lg:mt-0">
                             <div class="flex justify-center">
                                 <div class="relative">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"
@@ -402,7 +412,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="flex flex-col lg:flex-row text-center lg:text-start lg:justify-between gap-4 px-8 mt-10 lg:mt-0">
+                        <div
+                            class="flex flex-col lg:flex-row text-center lg:text-start lg:justify-between gap-4 px-8 mt-10 lg:mt-0">
                             <div class="flex justify-center">
                                 <div class="relative">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"
